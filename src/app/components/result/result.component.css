@@ -1,0 +1,19 @@
+.resultado__card{
+    width: 80%;
+    height: 80%;
+    background-color: rgba(255, 230, 3, 0.577);
+    text-align: center;
+    margin: 0 auto;
+    border-radius: 1.2rem;
+    padding: 1rem;
+    
+}
+
+.resultado__text{
+    text-align: center;
+    font-weight: bold;
+}
+.resultado__img{
+    width: 250px;
+    max-width: 80%;
+}

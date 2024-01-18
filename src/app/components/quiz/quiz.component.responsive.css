@@ -1,0 +1,30 @@
+
+@media only screen and (max-width: 600px) {
+    .quiz__container {
+        padding: 2rem 1rem;
+    }
+    .quiz__title {
+        font-size: 2.5em;
+    }
+    .quiz__title,
+    .quis__question {
+        text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);
+        margin: 0rem .5rem 2rem .5rem;
+    }
+}
+@media only screen and (max-width: 519px) {
+    .quiz__container {
+        padding: 2rem .5rem;
+    }
+    .quiz__title {
+        font-size: 2em;
+    }
+}
+@media only screen and (max-width: 418px) {
+    .quiz__container {
+        padding: 2rem .5rem;
+    }
+    .quiz__title {
+        font-size: 1.5em;
+    }
+}
