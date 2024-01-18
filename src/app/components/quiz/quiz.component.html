@@ -2,13 +2,11 @@
     <h1 class="quiz__title">Qual personagem dos Simpsons você seria?</h1>
 
     <div class="box__question">
-        <h3 class="quis__question">Qual é a sua comida favorita?</h3>
+        <h3 class="quis__question"> {{currentQuestion}}</h3>
     </div>
 
     <div class="quiz__answers">
-        <button href="#" class="btn btn-primary quiz__option">Rosquinhas</button>
-        <button href="#" class="btn btn-primary quiz__option">Rosquinhas</button>
-        <button href="#" class="btn btn-primary quiz__option">Rosquinhas</button>
-        <button href="#" class="btn btn-primary quiz__option">Rosquinhas</button>
+        <button href="#" *ngFor="let option of currentOptions; let i = index" (click)="respostaSelecionada(option.character)" class="btn btn-primary quiz__option">{{option.name}}
+        </button>
     </div>
 </section>
