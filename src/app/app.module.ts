@@ -6,6 +6,7 @@ import { AppRoutingModule } from './app-routing.module';
 import { QuizComponent } from './components/quiz/quiz.component';
 import { HomeComponent } from './pages/home/home.component';
 import { ResultComponent } from './components/result/result.component';
+import {HttpClientModule} from '@angular/common/http'
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { ResultComponent } from './components/result/result.component';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]
